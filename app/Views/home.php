@@ -383,7 +383,7 @@
     <!-- modal end -->
 
     <!-- Chat WA -->
-    <a href="https://wa.me/62895343212232?text=Halo"
+    <a href="https://wa.me/62895343212232?text=Halo saya dari website, ingin mengajukan pertanyaan."
         target="_blank"
         class="position-fixed bottom-0 end-0 m-4 p-3 bg-success rounded-circle shadow-lg text-white d-flex align-items-center justify-content-center"
         style="z-index: 9999; width: 60px; height: 60px; transition: transform 0.2s;"

@@ -1,0 +1,15 @@
+.env
+.env.backup
+.env.production
+
+vendor/
+writable/cache/*
+writable/debugbar/*
+writable/logs/*
+writable/session/*
+!writable/index.html
+!writable/**/.gitkeep
+
+.vscode/
+*.png
+*.jpg
