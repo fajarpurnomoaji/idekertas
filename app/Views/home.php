@@ -18,7 +18,7 @@
     <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #04254E !important;" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img src="/assets/logo/Logo-landscape.png" alt="Logo" width="130" height="45" class="d-inline-block align-text-top">
+                <img src="/assets/logo/Logo-landscape.webp" alt="Logo" width="130" height="45" class="d-inline-block align-text-top">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -57,15 +57,15 @@
         <div class="carousel-inner">
             <!-- Slide 1 -->
             <div class="carousel-item active" style="height: 450px;">
-                <img src="<?= base_url('assets/foto1.jpg') ?>" class="w-100 h-100 object-fit-cover">
+                <img src="<?= base_url('assets/foto1.webp') ?>" class="w-100 h-100 object-fit-cover">
             </div>
             <!-- Slide 2 -->
             <div class="carousel-item" style="height: 450px;">
-                <img src="<?= base_url('assets/foto2.jpg') ?>" class="w-100 h-100 object-fit-cover">
+                <img src="<?= base_url('assets/foto2.webp') ?>" class="w-100 h-100 object-fit-cover">
             </div>
             <!-- Slide 3 -->
             <div class="carousel-item" style="height: 450px;">
-                <img src="<?= base_url('assets/foto3.jpg') ?>" class="w-100 h-100 object-fit-cover">
+                <img src="<?= base_url('assets/foto3.webp') ?>" class="w-100 h-100 object-fit-cover">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -106,7 +106,7 @@
         <div class="row g-4 justify-content-center row-cols-1 row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2">
             <div class="col">
                 <div class="card">
-                    <img src="<?= base_url('assets/kertas-stiker-doff.jpg') ?>" class="card-img-top w-100 object-fit-cover" style="height: 200px;" alt="...">
+                    <img src="<?= base_url('assets/kertas-stiker-doff.webp') ?>" class="card-img-top w-100 object-fit-cover" style="height: 200px;" alt="...">
                     <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
                     </div>
@@ -114,7 +114,7 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="<?= base_url('assets/foto3.jpg') ?>" class="card-img-top w-100 object-fit-cover" style="height: 200px;" alt="...">
+                    <img src="<?= base_url('assets/foto3.webp') ?>" class="card-img-top w-100 object-fit-cover" style="height: 200px;" alt="...">
                     <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
                     </div>
@@ -122,7 +122,7 @@
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="<?= base_url('assets/foto3.jpg') ?>" class="card-img-top w-100 object-fit-cover" style="height: 200px;" alt="...">
+                    <img src="<?= base_url('assets/foto3.webp') ?>" class="card-img-top w-100 object-fit-cover" style="height: 200px;" alt="...">
                     <div class="card-body">
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
                     </div>
@@ -139,12 +139,12 @@
                 <H2 class="fw-bolder">SERVICE</H2>
             </div>
         </div>
-        <div class="row">
+        <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-3 row-cols-xs-1">
             <div class="col d-flex flex-column">
                 <i class="fa-solid fa-box-open fs-1 mb-2"></i>
                 <p>Setiap produk melewati proses seleksi ketat dan kontrol kualitas yang mendalam demi memastikan kepuasan serta daya tahan jangka panjang bagi Anda.</p>
             </div>
-            <div class="col d-flex flex-column border-end border-start border-dark">
+            <div class="col d-flex flex-column border-start-0 border-end-0 border-lg-end border-lg-start border-dark">
                 <i class="fa-solid fa-truck-fast fs-1 mb-2"></i>
                 <p>Tim kami siap menanggapi setiap pertanyaan dengan sigap, dan semua pesanan Anda langsung diproses serta dikirim pada hari yang sama agar tiba tepat waktu.</p>
             </div>
@@ -166,7 +166,7 @@
         <div class="row g-4 justify-content-center row-cols-1 row-cols-xl-5 row-cols-lg-4 row-cols-md-3 row-cols-sm-2">
             <div class="col">
                 <div class="card h-100 d-flex flex-column">
-                    <img src="<?= base_url('assets/Kertas-stiker-doff.jpg') ?>" class="card-img-top w-100 object-fit-cover" style="height: 200px;" alt="...">
+                    <img src="<?= base_url('assets/Kertas-stiker-doff.webp') ?>" class="card-img-top w-100 object-fit-cover" style="height: 200px;" alt="...">
                     <div class="card-body d-flex flex-column flex-grow-1">
                         <h5 class="card-title fw-bold">Kertas Stiker Doff</h5>
                         <p class="card-text"> Kertas sticker yang dilapisi dengan laminasi doff atau laminasi dingin</p>
@@ -202,7 +202,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 d-flex flex-column">
-                    <img src="<?= base_url('assets/kertas-tik.jpg') ?>" class="card-img-top w-100 object-fit-cover" style="height: 200px;" alt="...">
+                    <img src="<?= base_url('assets/kertas-tik.webp') ?>" class="card-img-top w-100 object-fit-cover" style="height: 200px;" alt="...">
                     <div class="card-body d-flex flex-column flex-grow-1">
                         <h5 class="card-title fw-bold">Kertas Karton TIK</h5>
                         <p class="card-text">Kertas BC 160 gsm ini hadir dengan warna putih yang elegan dan tekstur doff yang lembut.</p>
@@ -220,7 +220,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 d-flex flex-column">
-                    <img src="<?= base_url('assets/kertas-art-carton.jpg') ?>" class="card-img-top w-100 object-fit-cover" style="height: 200px;" alt="...">
+                    <img src="<?= base_url('assets/kertas-art-carton.webp') ?>" class="card-img-top w-100 object-fit-cover" style="height: 200px;" alt="...">
                     <div class="card-body d-flex flex-column flex-grow-1">
                         <h5 class="card-title fw-bold">Kertas Art Carton</h5>
                         <p class="card-text">Kertas BC 160 gsm ini hadir dengan warna putih yang elegan dan tekstur doff yang lembut.</p>
@@ -238,7 +238,7 @@
             </div>
             <div class="col">
                 <div class="card h-100 d-flex flex-column">
-                    <img src="<?= base_url('assets/foto3.jpg') ?>" class="card-img-top w-100 object-fit-cover" style="height: 200px;" alt="...">
+                    <img src="<?= base_url('assets/foto3.webp') ?>" class="card-img-top w-100 object-fit-cover" style="height: 200px;" alt="...">
                     <div class="card-body d-flex flex-column flex-grow-1">
                         <h5 class="card-title fw-bold">Kertas BriefCard (BC)</h5>
                         <p class="card-text">Kertas BC 160 gsm ini hadir dengan warna putih yang elegan dan tekstur doff yang lembut.</p>
@@ -267,13 +267,13 @@
         </div>
         <div class="row">
             <div class="col">
-                <img src="<?= base_url('assets/logo/partner/Idekawan-logo.png') ?>" class="img-fluid" style="max-width: 150px;" alt="idekawan">
+                <img src="<?= base_url('assets/logo/partner/Idekawan-logo.webp') ?>" class="img-fluid" style="max-width: 150px;" alt="idekawan">
             </div>
             <div class="col">
-                <img src="<?= base_url('assets/logo/partner/Idekawan-logo.png') ?>" class="img-fluid" style="max-width: 150px;" alt="idekawan">
+                <img src="<?= base_url('assets/logo/partner/Idekawan-logo.webp') ?>" class="img-fluid" style="max-width: 150px;" alt="idekawan">
             </div>
             <div class="col">
-                <img src="<?= base_url('assets/logo/partner/Idekawan-logo.png') ?>" class="img-fluid" style="max-width: 150px;" alt="idekawan">
+                <img src="<?= base_url('assets/logo/partner/Idekawan-logo.webp') ?>" class="img-fluid" style="max-width: 150px;" alt="idekawan">
             </div>
         </div>
     </div>
